@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
@@ -25,6 +26,7 @@ interface NavProps {
 
 export function Nav({ className, children, id }: NavProps) {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10); // adjust threshold if you want
@@ -32,6 +34,16 @@ export function Nav({ className, children, id }: NavProps) {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // #contact only exists on the home page, so scroll directly when already there
+  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (pathname === "/") {
+      e.preventDefault();
+      document
+        .getElementById("contact")
+        ?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <nav
@@ -95,7 +107,9 @@ export function Nav({ className, children, id }: NavProps) {
             asChild
             className="hidden sm:flex bg-[#1D283F] dark:text-white  dark:border-white"
           >
-            <Link href="/contact">Contact</Link>
+            <a href="/#contact" onClick={handleContactClick}>
+              Contact
+            </a>
           </Button>
           <MobileNav />
         </div>
