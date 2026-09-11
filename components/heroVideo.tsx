@@ -38,7 +38,7 @@ export default function HeroVideo() {
         <video
           ref={bgRef}
           src="https://www.alfredorafael.com/wp-content/uploads/2026/09/Sarasota-Air-View.mp4"
-          poster="https://dacarch.com/wp-content/uploads/2026/08/Poster_Hero-Image.png"
+          poster="http://www.alfredorafael.com/wp-content/uploads/2026/09/habershamre_poster.png"
           className="h-full w-full object-cover will-change-transform"
           autoPlay
           loop
