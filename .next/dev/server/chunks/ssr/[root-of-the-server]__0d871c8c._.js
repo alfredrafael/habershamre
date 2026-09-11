@@ -107,10 +107,10 @@ __turbopack_context__.s([
     ()=>siteConfig
 ]);
 const siteConfig = {
-    site_name: "DAC Architects",
-    site_description: "Professional architectural design firm specializing in modern residential and commercial projects.",
-    site_tagline: "Design. Architect. Create.",
-    site_domain: "https://dacarchdesign.com",
+    site_name: "Habersham Real Estate",
+    site_description: "Real Estate Services",
+    site_tagline: "",
+    site_domain: "https://habershamre.com",
     site_keywords: [
         "architecture",
         "architectural design",
@@ -123,11 +123,11 @@ const siteConfig = {
         "modern architecture"
     ],
     social: {
-        twitter: "@DACArchitects",
-        linkedin: "company/dac-architects",
-        instagram: "@dac_architects_llc"
+        twitter: "@HabershamRE",
+        linkedin: "company/habersham-real-estate",
+        instagram: "@habershamre"
     },
-    og_image: "https://dacarch.com/wp-content/uploads/2026/08/5008-Timberland-Interior.png"
+    og_image: "http://www.alfredorafael.com/wp-content/uploads/2026/09/sarasota-ribbon-e1789149843923.jpg"
 };
 }),
 "[project]/components/icons/InstagramIcon.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -330,21 +330,21 @@ const contactDetails = [
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$469$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"],
         label: "Phone",
-        value: "+1 (412) 320-9569",
-        href: "tel:+14123209569",
-        plusSignAndOnlyDashesValue: "+1-412-320-9569"
+        value: "+1 (917) 723-2897",
+        href: "tel:+19177232897",
+        plusSignAndOnlyDashesValue: "+1-917-723-2897"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$469$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"],
         label: "Email",
-        value: "Info@dacarch.com",
-        href: "mailto:Info@dacarch.com"
+        value: "Richard@HabershamRE.com",
+        href: "mailto:Richard@HabershamRE.com"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$469$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"],
         label: "Office",
-        value: "5767 75th Ave, Pinellas Park\n FL 33781",
-        href: "https://www.google.com/maps/place/Pinellas+Park,+FL/@27.8597714,-82.7524459,13z/data=!3m1!4b1!4m6!3m5!1s0x88c2e4eeef314f25:0x3f127ac896cd422d!8m2!3d27.8428025!4d-82.6995443!16zL20vMHJyMzQ?entry=ttu&g_ep=EgoyMDI2MDExMS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D"
+        value: "15710 Riverside Dr W Apt 7P, New York, NY 10032",
+        href: "https://www.google.com/maps/place/15710+Riverside+Dr+W+Apt+7P,+New+York,+NY+10032"
     },
     {
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$469$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"],

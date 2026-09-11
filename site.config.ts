@@ -13,11 +13,10 @@ type SiteConfig = {
 };
 
 export const siteConfig: SiteConfig = {
-  site_name: "DAC Architects",
-  site_description:
-    "Professional architectural design firm specializing in modern residential and commercial projects.",
-  site_tagline: "Design. Architect. Create.",
-  site_domain: "https://dacarchdesign.com",
+  site_name: "Habersham Real Estate",
+  site_description: "Real Estate Services",
+  site_tagline: "",
+  site_domain: "https://habershamre.com",
   site_keywords: [
     "architecture",
     "architectural design",
@@ -30,10 +29,10 @@ export const siteConfig: SiteConfig = {
     "modern architecture",
   ],
   social: {
-    twitter: "@DACArchitects",
-    linkedin: "company/dac-architects",
-    instagram: "@dac_architects_llc",
+    twitter: "@HabershamRE",
+    linkedin: "company/habersham-real-estate",
+    instagram: "@habershamre",
   },
   og_image:
-    "https://dacarch.com/wp-content/uploads/2026/08/5008-Timberland-Interior.png",
+    "http://www.alfredorafael.com/wp-content/uploads/2026/09/sarasota-ribbon-e1789149843923.jpg",
 };

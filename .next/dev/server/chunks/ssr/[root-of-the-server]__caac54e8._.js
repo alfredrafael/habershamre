@@ -599,31 +599,7 @@ __turbopack_context__.s([
 ]);
 const mainMenu = {
     home: "/",
-    projects: {
-        href: "/projects",
-        items: [
-            {
-                label: "Single-Family Residential",
-                href: "/projects?category=single-family-residential"
-            },
-            {
-                label: "Multi-Family Projects",
-                href: "/projects?category=multifamily"
-            },
-            {
-                label: "Commercial Projects",
-                href: "/projects?category=commercial"
-            },
-            {
-                label: "Development Projects",
-                href: "/projects?category=development"
-            },
-            {
-                label: "Feasibility Studies",
-                href: "/feasibility-studies"
-            }
-        ]
-    }
+    Schedule: "/schedule"
 };
 const contentMenu = {
     categories: "/posts/categories",
@@ -639,10 +615,10 @@ __turbopack_context__.s([
     ()=>siteConfig
 ]);
 const siteConfig = {
-    site_name: "DAC Architects",
-    site_description: "Professional architectural design firm specializing in modern residential and commercial projects.",
-    site_tagline: "Design. Architect. Create.",
-    site_domain: "https://dacarchdesign.com",
+    site_name: "Habersham Real Estate",
+    site_description: "Real Estate Services",
+    site_tagline: "",
+    site_domain: "https://habershamre.com",
     site_keywords: [
         "architecture",
         "architectural design",
@@ -655,11 +631,11 @@ const siteConfig = {
         "modern architecture"
     ],
     social: {
-        twitter: "@DACArchitects",
-        linkedin: "company/dac-architects",
-        instagram: "@dac_architects_llc"
+        twitter: "@HabershamRE",
+        linkedin: "company/habersham-real-estate",
+        instagram: "@habershamre"
     },
-    og_image: "https://dacarch.com/wp-content/uploads/2026/08/5008-Timberland-Interior.png"
+    og_image: "http://www.alfredorafael.com/wp-content/uploads/2026/09/sarasota-ribbon-e1789149843923.jpg"
 };
 }),
 "[project]/components/nav/mobile-nav.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {

@@ -79,7 +79,7 @@ export default function HeroVideo() {
           <Button
             size="lg"
             variant="outline"
-            className="w-full bg-transparent border-[#fff] dark:border-white/70 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.7)] hover:text-white sm:w-auto hover:bg-[#1D283F]"
+            className="w-full bg-transparent border-white hover:border-[#1D283F] dark:border-white/70 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.7)] hover:text-white sm:w-auto hover:bg-[#1D283F]"
             onClick={(e) => {
               e.preventDefault();
               const projectsSection = document.getElementById("projects");

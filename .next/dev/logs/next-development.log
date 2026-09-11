@@ -1,651 +1,111 @@
-[00:00:00.762] Server  LOG     ✓ Ready in 570ms
-[00:00:05.756] Server  ERROR   ⨯ Error: Invalid src prop (http://www.alfredorafael.com/wp-content/uploads/2026/09/17.avif) on `next/image`, hostname "www.alfredorafael.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:00:06.614] Browser ERROR   uncaughtError: Error: Invalid src prop (http://www.alfredorafael.com/wp-content/uploads/2026/09/17.avif) on `next/image`, hostname "www.alfredorafael.com" is not configured under images in your `next.config.js`
-See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
-[00:00:08.515] Server  LOG     ✓ Compiled in 506ms
-[00:00:09.060] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:00:09.061] Browser ERROR   EmailJS public key is missing!
-[00:00:09.061] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.061] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:09.061] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789146406607} /_vercel/insights/view
-[00:00:25.568] Server  LOG     ✓ Compiled in 65ms
-[00:03:02.364] Server  LOG     ✓ Compiled in 287ms
-[00:03:03.062] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:03:03.062] Browser ERROR   EmailJS public key is missing!
-[00:03:03.062] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:03.062] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:03:03.062] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789146580642} /_vercel/insights/view
-[00:03:10.479] Server  LOG     ✓ Compiled in 87ms
-[00:03:52.471] Server  LOG     ✓ Compiled in 84ms
-[00:04:15.218] Server  LOG     ✓ Compiled in 67ms
-[00:07:10.196] Server  LOG     ✓ Compiled in 80ms
-[00:07:29.631] Server  LOG     ✓ Compiled in 76ms
-[00:07:50.091] Server  LOG     ✓ Compiled in 98ms
-[00:08:12.499] Server  LOG     ✓ Compiled in 81ms
-[00:09:27.108] Server  LOG     ✓ Compiled in 178ms
-[00:10:28.888] Server  LOG     ✓ Compiled in 52ms
-[00:11:12.971] Server  LOG     ✓ Compiled in 121ms
-[00:11:24.851] Server  LOG     ✓ Compiled in 61ms
-[00:12:35.415] Server  LOG     ✓ Compiled in 61ms
-[00:13:33.616] Server  LOG     ✓ Compiled in 127ms
-[00:15:34.379] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
+[00:00:00.777] Server  LOG     ✓ Ready in 605ms
+[00:00:04.811] Browser ERROR   uncaughtError: TypeError: Cannot set properties of null (setting 'content')
+[00:00:04.811] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.811] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150774995} /_vercel/insights/view
+[00:00:04.811] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:07.642] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:07.643] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150777794} /_vercel/insights/view
+[00:00:07.643] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:07.643] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:08.478] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150778666} /_vercel/insights/view
+[00:00:09.929] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150780114} /_vercel/insights/view
+[00:00:09.929] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:09.929] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:19.879] Server  LOG     ✓ Compiled in 606ms
+[00:00:23.359] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150793544} /_vercel/insights/view
+[00:02:56.280] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.1.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:57.691] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:02:57.691] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:57.691] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:57.691] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150947883} /_vercel/insights/view
+[00:03:11.968] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:03:11.968] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150962149} /_vercel/insights/view
+[00:03:11.968] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:03:11.968] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:03:12.911] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150963097} /_vercel/insights/view
+[00:03:12.911] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:03:12.911] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:03:49.376] Browser ERROR   ./app/schedule/page.tsx:61:9
+Parsing ecmascript source code failed
+  59 |           </div>
+  60 |         </Container>
+> 61 |       </main>
+     |         ^^^^
+  62 |     </>
+  63 |   );
+  64 | }
 
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <span>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                          ...
-                        ...
-            ...
+Expected '>', got 'main'
+[00:03:57.118] Browser ERROR   ./app/schedule/page.tsx:62:6
+Parsing ecmascript source code failed
+  60 |         </Container>
+  61 |       </main>
+> 62 |     </>
+     |      ^^
+  63 |   );
+  64 | }
+  65 |
 
-[00:15:34.379] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:16:06.779] Server  LOG     ✓ Compiled in 64ms
-[00:16:37.111] Server  LOG     ✓ Compiled in 369ms
-[00:18:28.405] Server  LOG     ✓ Compiled in 516ms
-[00:18:53.466] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:18:53.466] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:18:53.466] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:18:53.466] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:18:53.466] Browser ERROR   EmailJS public key is missing!
-[00:18:53.466] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:18:53.466] Browser ERROR   EmailJS public key is missing!
-[00:18:53.466] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:18:53.466] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:53.466] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789147530979} /_vercel/insights/view
-[00:19:32.952] Server  LOG     ✓ Compiled in 175ms
-[00:19:51.290] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:19:51.291] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:19:51.291] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:19:51.291] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:19:51.291] Browser ERROR   EmailJS public key is missing!
-[00:19:51.291] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:19:51.291] Browser ERROR   EmailJS public key is missing!
-[00:19:51.291] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:51.291] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:19:51.291] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789147588648} /_vercel/insights/view
-[00:20:22.880] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:20:22.880] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:20:22.880] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:20:22.880] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:20:22.880] Browser ERROR   EmailJS public key is missing!
-[00:20:22.880] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:20:22.880] Browser ERROR   EmailJS public key is missing!
-[00:20:22.880] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:22.880] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:22.880] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789147620451} /_vercel/insights/view
-[00:21:25.808] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:21:25.809] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:21:25.809] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:21:25.809] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:21:25.809] Browser ERROR   EmailJS public key is missing!
-[00:21:25.809] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:21:25.809] Browser ERROR   EmailJS public key is missing!
-[00:21:25.809] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:21:25.809] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:21:25.809] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789147683394} /_vercel/insights/view
-[00:25:45.903] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:25:45.903] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:25:45.903] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:25:45.903] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:25:45.903] Browser ERROR   EmailJS public key is missing!
-[00:25:45.903] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:25:45.903] Browser ERROR   EmailJS public key is missing!
-[00:25:45.903] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:25:45.903] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:45.903] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789147943519} /_vercel/insights/view
-[00:25:52.984] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:25:52.985] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:25:52.985] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:25:52.985] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:25:52.985] Browser ERROR   EmailJS public key is missing!
-[00:25:52.985] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:25:52.985] Browser ERROR   EmailJS public key is missing!
-[00:25:52.985] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:25:52.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:52.985] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789147950597} /_vercel/insights/view
-[00:31:13.216] Server  LOG     ✓ Compiled in 492ms
-[00:31:17.001] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:31:17.004] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:31:17.004] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:31:17.004] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:31:17.004] Browser ERROR   EmailJS public key is missing!
-[00:31:17.004] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:31:17.004] Browser ERROR   EmailJS public key is missing!
-[00:31:17.004] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:17.004] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:31:17.004] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789148274592} /_vercel/insights/view
-[00:31:20.017] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <a> a 
-
-  ...
-    <SegmentViewNode type="layout" pagePath="layout.tsx">
-      <SegmentTrieNode>
-      <link>
-      <script>
-      <script>
-      <script>
-      <RootLayout>
-        <html lang="en" suppressHydrationWarning={true}>
-          <head>
-          <body className="min-h-scre..." suppressHydrationWarning={true}>
-            <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-              <J attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                <V attribute="class" defaultTheme="light" disableTransitionOnChange={true}>
-                  <script>
-                  <Nav>
-                  <OuterLayoutRouter>
-                  <Footer>
-                    <footer>
-                      <div>
-                      <div className="max-w-6xl ...">
-                        <div>
-                          <div className="flex items...">
-                            <LinkComponent>
-                              <LinkComponent className="flex items..." href="/">
->                               <a
->                                 className="flex items-center gap-2"
->                                 ref={function}
->                                 onClick={function onClick}
->                                 onMouseEnter={function onMouseEnter}
->                                 onTouchStart={function onTouchStart}
->                                 href="/"
->                               >
-                                  <h3>
-                                  <LinkComponent>
-                                    <LinkComponent className="flex items..." href="/">
->                                     <a
->                                       className="flex items-center gap-4 transition-all hover:opacity-75"
->                                       ref={function}
->                                       onClick={function onClick}
->                                       onMouseEnter={function onMouseEnter}
->                                       onTouchStart={function onTouchStart}
->                                       href="/"
->                                     >
-                        ...
-            ...
-
-[00:31:20.017] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. a <a>
-[00:31:20.017] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-[00:31:20.017] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:31:20.017] Browser ERROR   EmailJS public key is missing!
-[00:31:20.017] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:31:20.017] Browser ERROR   EmailJS public key is missing!
-[00:31:20.017] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:31:20.017] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:31:20.017] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789148277621} /_vercel/insights/view
-[00:34:45.357] Server  LOG     ✓ Compiled in 253ms
+Unterminated regexp literal
+[00:04:43.274] Server  LOG     ✓ Compiled in 175ms
+[00:04:43.775] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:04:43.775] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:04:55.549] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:04:55.549] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:05:04.567] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:05:04.567] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:05:23.313] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151093477} /_vercel/insights/view
+[00:05:23.313] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:05:23.313] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:05:24.252] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151094429} /_vercel/insights/view
+[00:05:24.252] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:05:24.253] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:06:06.611] Server  LOG     ✓ Compiled in 55ms
+[00:06:07.420] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:06:07.420] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:07.420] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:07.420] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151137599} /_vercel/insights/view
+[00:07:16.648] Server  LOG     ✓ Compiled in 60ms
+[00:08:39.934] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:08:39.934] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151290071} /_vercel/insights/view
+[00:08:39.935] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:39.935] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:42.366] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151292544} /_vercel/insights/view
+[00:08:42.366] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:42.366] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:43.895] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151294041} /_vercel/insights/view
+[00:08:43.895] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:43.895] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:49.457] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151299627} /_vercel/insights/view
+[00:08:49.457] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:49.457] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:53.237] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151303410} /_vercel/insights/view
+[00:08:53.237] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:08:53.237] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:11:02.785] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:11:02.785] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:02.785] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:02.785] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151432965} /_vercel/insights/view
+[00:12:02.140] Server  LOG     ✓ Compiled in 172ms
+[00:12:10.825] Server  LOG     ✓ Compiled in 90ms
+[00:12:36.798] Server  LOG     ✓ Compiled in 96ms
+[00:12:58.813] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:12:58.813] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:13:01.417] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:13:01.417] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151551592} /_vercel/insights/view
+[00:13:01.417] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:13:01.417] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:14:24.142] Server  LOG     ✓ Compiled in 127ms
+[00:14:42.873] Server  LOG     ✓ Compiled in 201ms
+[00:15:06.590] Server  LOG     ✓ Compiled in 93ms
+[00:15:26.184] Server  LOG     ✓ Compiled in 68ms
+[00:15:49.772] Server  LOG     ✓ Compiled in 70ms
+[00:16:25.830] Server  LOG     ✓ Compiled in 90ms
+[00:16:33.324] Server  LOG     ✓ Compiled in 266ms
+[00:16:33.423] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:16:42.424] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:16:42.424] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:16:42.424] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151772581} /_vercel/insights/view
+[00:16:46.873] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:16:46.873] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:16:46.873] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151777045} /_vercel/insights/view

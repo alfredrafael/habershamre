@@ -129,7 +129,7 @@ function HeroVideo() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                 size: "lg",
                                 variant: "outline",
-                                className: "w-full bg-transparent border-[#fff] dark:border-white/70 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.7)] hover:text-white sm:w-auto hover:bg-[#1D283F]",
+                                className: "w-full bg-transparent border-white hover:border-[#1D283F] dark:border-white/70 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.7)] hover:text-white sm:w-auto hover:bg-[#1D283F]",
                                 onClick: (e)=>{
                                     e.preventDefault();
                                     const projectsSection = document.getElementById("projects");
@@ -197,6 +197,7 @@ function Ribbon({ ribbonImage = "", ribbonText = "", ribbonSubtext = "" }) {
             const mql = window.matchMedia("(min-width: 768px)"); // disable parallax on mobile
             let raf = 0;
             const speed = 0.25; // smaller = subtler
+            const maxShift = 40; // clamp so image never scrolls past its scaled overscan
             const onScroll = {
                 "Ribbon.useEffect.onScroll": ()=>{
                     if (!mql.matches) return;
@@ -204,7 +205,7 @@ function Ribbon({ ribbonImage = "", ribbonText = "", ribbonSubtext = "" }) {
                     raf = requestAnimationFrame({
                         "Ribbon.useEffect.onScroll": ()=>{
                             const rect = el.parentElement.getBoundingClientRect();
-                            const y = rect.top * speed;
+                            const y = Math.max(-maxShift, Math.min(maxShift, rect.top * speed));
                             el.style.transform = `translate3d(0, ${y}px, 0) scale(1.15)`;
                         }
                     }["Ribbon.useEffect.onScroll"]);
@@ -235,7 +236,7 @@ function Ribbon({ ribbonImage = "", ribbonText = "", ribbonSubtext = "" }) {
         className: "relative bg-primary py-24 lg:py-32 overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 z-0",
+                className: "absolute -inset-1 z-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         ref: bgRef,
@@ -245,20 +246,20 @@ function Ribbon({ ribbonImage = "", ribbonText = "", ribbonSubtext = "" }) {
                         className: "object-cover will-change-transform"
                     }, void 0, false, {
                         fileName: "[project]/components/layout/ribbon.tsx",
-                        lineNumber: 55,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-linear-to-b from-black/30 via-black/50 to-black/80"
                     }, void 0, false, {
                         fileName: "[project]/components/layout/ribbon.tsx",
-                        lineNumber: 63,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/layout/ribbon.tsx",
-                lineNumber: 54,
+                lineNumber: 55,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -274,7 +275,7 @@ function Ribbon({ ribbonImage = "", ribbonText = "", ribbonSubtext = "" }) {
                             children: ribbonText
                         }, void 0, false, {
                             fileName: "[project]/components/layout/ribbon.tsx",
-                            lineNumber: 68,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$1$2e$1_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -282,24 +283,24 @@ function Ribbon({ ribbonImage = "", ribbonText = "", ribbonSubtext = "" }) {
                             children: ribbonSubtext
                         }, void 0, false, {
                             fileName: "[project]/components/layout/ribbon.tsx",
-                            lineNumber: 74,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/layout/ribbon.tsx",
-                    lineNumber: 67,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/layout/ribbon.tsx",
-                lineNumber: 66,
+                lineNumber: 67,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/layout/ribbon.tsx",
-        lineNumber: 52,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 }
@@ -418,11 +419,12 @@ function ContactForm() {
                 hasServiceId: !!("TURBOPACK compile-time value", ""),
                 hasTemplateId: !!("TURBOPACK compile-time value", "")
             });
-            if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
-            ;
-            else {
-                console.error("EmailJS public key is missing!");
-            }
+        // if (publicKey) {
+        //   emailjs.init(publicKey);
+        //   console.log("EmailJS initialized successfully");
+        // } else {
+        //   console.error("EmailJS public key is missing!");
+        // }
         }
     }["ContactForm.useEffect"], []);
     const handleSubmit = async (e)=>{
@@ -630,7 +632,7 @@ function ContactForm() {
                         type: "submit",
                         size: "lg",
                         disabled: isSubmitting,
-                        className: "hover:bg-primary/80",
+                        className: "hover:bg-primary/80 bg-[#1D283F]",
                         children: isSubmitting ? "Sending..." : "Send Message"
                     }, void 0, false, {
                         fileName: "[project]/components/contactForm.tsx",

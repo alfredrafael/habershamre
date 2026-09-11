@@ -24,7 +24,7 @@ export default function Home() {
         {/* <Projects /> */}
         <Ribbon
           ribbonText="Lorem Ipsum Text Goes Here"
-          ribbonImage="https://www.alfredorafael.com/wp-content/uploads/2026/09/17.avif"
+          ribbonImage="https://www.alfredorafael.com/wp-content/uploads/2026/09/sarasota-ribbon-e1789149843923.jpg"
         />
         {/* <div className="mb-16">
           <p className="text-center mt-16 mb-8 text-3xl font-semibold">

@@ -3,6 +3,7 @@
 import type React from "react";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import emailjs from "@emailjs/browser";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,6 +18,8 @@ import {
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const pathname = usePathname();
+  const isSchedulePage = pathname === "/schedule";
 
   // Initialize EmailJS
   useEffect(() => {
@@ -27,12 +30,12 @@ export function ContactForm() {
       hasTemplateId: !!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
     });
 
-    if (publicKey) {
-      emailjs.init(publicKey);
-      console.log("EmailJS initialized successfully");
-    } else {
-      console.error("EmailJS public key is missing!");
-    }
+    // if (publicKey) {
+    //   emailjs.init(publicKey);
+    //   console.log("EmailJS initialized successfully");
+    // } else {
+    //   console.error("EmailJS public key is missing!");
+    // }
   }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -49,7 +52,7 @@ export function ContactForm() {
         templateId,
       });
       alert(
-        "Email service is not configured properly. Please contact support."
+        "Email service is not configured properly. Please contact support.",
       );
       setIsSubmitting(false);
       return;
@@ -59,7 +62,7 @@ export function ContactForm() {
       const result = await emailjs.sendForm(
         serviceId,
         templateId,
-        e.target as HTMLFormElement
+        e.target as HTMLFormElement,
       );
 
       console.log("Email sent successfully:", result.text);
@@ -73,7 +76,7 @@ export function ContactForm() {
         status: error?.status,
       });
       alert(
-        "Sorry, there was an error sending your message. Please try again or contact us directly."
+        "Sorry, there was an error sending your message. Please try again or contact us directly.",
       );
     } finally {
       setIsSubmitting(false);
@@ -138,25 +141,23 @@ export function ContactForm() {
           />
         </div>
 
-        {/* <div className="space-y-2">
-          <Label htmlFor="interest">{"I'm interested in"}</Label>
-          <Select name="interest">
-            <SelectTrigger id="interest" className="bg-background">
-              <SelectValue placeholder="Select an option" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="buying">{"Buying a property"}</SelectItem>
-              <SelectItem value="selling">{"Selling a property"}</SelectItem>
-              <SelectItem value="renting">{"Renting a property"}</SelectItem>
-              <SelectItem value="investment">
-                {"Investment opportunities"}
-              </SelectItem>
-              <SelectItem value="consultation">
-                {"General consultation"}
-              </SelectItem>
-            </SelectContent>
-          </Select>
-        </div> */}
+        {isSchedulePage && (
+          <div className="space-y-2">
+            <Label htmlFor="interest">{"Select Weekend"}</Label>
+            <Select name="interest">
+              <SelectTrigger id="interest" className="bg-background">
+                <SelectValue placeholder="Choose dates" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="weekend1">{"Weekend 1"}</SelectItem>
+                <SelectItem value="weekend2">{"Weekend 2"}</SelectItem>
+                <SelectItem value="weekend3">{"Weekend 3"}</SelectItem>
+                <SelectItem value="weekend4">{"Weekend 4"}</SelectItem>
+                <SelectItem value="weekend5">{"Weekend 5"}</SelectItem>
+              </SelectContent>
+            </Select>
+          </div>
+        )}
 
         <div className="space-y-2">
           <Label htmlFor="message">{"Message"}</Label>
@@ -174,7 +175,7 @@ export function ContactForm() {
           type="submit"
           size="lg"
           disabled={isSubmitting}
-          className="hover:bg-primary/80"
+          className="hover:bg-primary/80 bg-[#1D283F]"
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </Button>

@@ -4,21 +4,21 @@ export const contactDetails = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (412) 320-9569",
-    href: "tel:+14123209569",
-    plusSignAndOnlyDashesValue: "+1-412-320-9569",
+    value: "+1 (917) 723-2897",
+    href: "tel:+19177232897",
+    plusSignAndOnlyDashesValue: "+1-917-723-2897",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "Info@dacarch.com",
-    href: "mailto:Info@dacarch.com",
+    value: "Richard@HabershamRE.com",
+    href: "mailto:Richard@HabershamRE.com",
   },
   {
     icon: MapPin,
     label: "Office",
-    value: "5767 75th Ave, Pinellas Park\n FL 33781",
-    href: "https://www.google.com/maps/place/Pinellas+Park,+FL/@27.8597714,-82.7524459,13z/data=!3m1!4b1!4m6!3m5!1s0x88c2e4eeef314f25:0x3f127ac896cd422d!8m2!3d27.8428025!4d-82.6995443!16zL20vMHJyMzQ?entry=ttu&g_ep=EgoyMDI2MDExMS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D",
+    value: "15710 Riverside Dr W Apt 7P, New York, NY 10032",
+    href: "https://www.google.com/maps/place/15710+Riverside+Dr+W+Apt+7P,+New+York,+NY+10032",
   },
   {
     icon: Clock,

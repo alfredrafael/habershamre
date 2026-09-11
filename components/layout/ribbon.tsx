@@ -21,13 +21,14 @@ export default function Ribbon({
     const mql = window.matchMedia("(min-width: 768px)"); // disable parallax on mobile
     let raf = 0;
     const speed = 0.25; // smaller = subtler
+    const maxShift = 40; // clamp so image never scrolls past its scaled overscan
 
     const onScroll = () => {
       if (!mql.matches) return;
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
         const rect = el.parentElement!.getBoundingClientRect();
-        const y = rect.top * speed;
+        const y = Math.max(-maxShift, Math.min(maxShift, rect.top * speed));
         el.style.transform = `translate3d(0, ${y}px, 0) scale(1.15)`;
       });
     };
@@ -51,7 +52,7 @@ export default function Ribbon({
   return (
     <section className="relative bg-primary py-24 lg:py-32 overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute -inset-1 z-0">
         <Image
           ref={bgRef}
           src={ribbonImage}
