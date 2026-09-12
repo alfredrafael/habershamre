@@ -17,8 +17,9 @@ export const contactDetails = [
   {
     icon: MapPin,
     label: "Office",
-    value: "15710 Riverside Dr W Apt 7P, New York, NY 10032",
-    href: "https://www.google.com/maps/place/15710+Riverside+Dr+W+Apt+7P,+New+York,+NY+10032",
+    value:
+      "169 East Flagler Street, Alfred I. Dupont Building, Miami, FL 33131",
+    href: "https://www.google.com/maps/place/169+East+Flagler+Street,+Alfred+I.+Dupont+Building,+Miami,+FL+33131",
   },
   {
     icon: Clock,

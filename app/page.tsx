@@ -54,7 +54,7 @@ export default function Home() {
                         {detail.label}
                       </p>
                       <p className="mt-1 whitespace-pre-line text-base font-medium leading-relaxed text-card-foreground">
-                        {detail.value}
+                        <span className="w-[300px] block">{detail.value}</span>
                       </p>
                     </div>
                   </div>
