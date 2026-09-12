@@ -1,156 +1,41 @@
-[00:00:00.777] Server  LOG     ✓ Ready in 605ms
-[00:00:04.811] Browser ERROR   uncaughtError: TypeError: Cannot set properties of null (setting 'content')
-[00:00:04.811] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:04.811] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150774995} /_vercel/insights/view
-[00:00:04.811] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:07.642] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:07.643] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150777794} /_vercel/insights/view
-[00:00:07.643] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:00:07.643] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:00:08.478] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150778666} /_vercel/insights/view
-[00:00:09.929] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150780114} /_vercel/insights/view
-[00:00:09.929] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:00:09.929] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:00:19.879] Server  LOG     ✓ Compiled in 606ms
-[00:00:23.359] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150793544} /_vercel/insights/view
-[00:02:56.280] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.1.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:57.691] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:02:57.691] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:57.691] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:57.691] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150947883} /_vercel/insights/view
-[00:03:11.968] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:11.968] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150962149} /_vercel/insights/view
-[00:03:11.968] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:03:11.968] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:03:12.911] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789150963097} /_vercel/insights/view
-[00:03:12.911] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:03:12.911] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:03:49.376] Browser ERROR   ./app/schedule/page.tsx:61:9
-Parsing ecmascript source code failed
-  59 |           </div>
-  60 |         </Container>
-> 61 |       </main>
-     |         ^^^^
-  62 |     </>
-  63 |   );
-  64 | }
-
-Expected '>', got 'main'
-[00:03:57.118] Browser ERROR   ./app/schedule/page.tsx:62:6
-Parsing ecmascript source code failed
-  60 |         </Container>
-  61 |       </main>
-> 62 |     </>
-     |      ^^
-  63 |   );
-  64 | }
-  65 |
-
-Unterminated regexp literal
-[00:04:43.274] Server  LOG     ✓ Compiled in 175ms
-[00:04:43.775] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:04:43.775] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:04:55.549] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:04:55.549] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:05:04.567] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:05:04.567] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:05:23.313] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151093477} /_vercel/insights/view
-[00:05:23.313] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:05:23.313] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:05:24.252] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151094429} /_vercel/insights/view
-[00:05:24.252] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:05:24.253] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:06:06.611] Server  LOG     ✓ Compiled in 55ms
-[00:06:07.420] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:06:07.420] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:06:07.420] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:06:07.420] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151137599} /_vercel/insights/view
-[00:07:16.648] Server  LOG     ✓ Compiled in 60ms
-[00:08:39.934] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:08:39.934] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151290071} /_vercel/insights/view
-[00:08:39.935] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:39.935] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:42.366] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151292544} /_vercel/insights/view
-[00:08:42.366] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:42.366] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:43.895] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151294041} /_vercel/insights/view
-[00:08:43.895] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:43.895] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:49.457] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151299627} /_vercel/insights/view
-[00:08:49.457] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:49.457] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:53.237] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151303410} /_vercel/insights/view
-[00:08:53.237] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:08:53.237] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:11:02.785] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:11:02.785] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:02.785] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:11:02.785] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151432965} /_vercel/insights/view
-[00:12:02.140] Server  LOG     ✓ Compiled in 172ms
-[00:12:10.825] Server  LOG     ✓ Compiled in 90ms
-[00:12:36.798] Server  LOG     ✓ Compiled in 96ms
-[00:12:58.813] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:12:58.813] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:13:01.417] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:13:01.417] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151551592} /_vercel/insights/view
-[00:13:01.417] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:13:01.417] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:14:24.142] Server  LOG     ✓ Compiled in 127ms
-[00:14:42.873] Server  LOG     ✓ Compiled in 201ms
-[00:15:06.590] Server  LOG     ✓ Compiled in 93ms
-[00:15:26.184] Server  LOG     ✓ Compiled in 68ms
-[00:15:49.772] Server  LOG     ✓ Compiled in 70ms
-[00:16:25.830] Server  LOG     ✓ Compiled in 90ms
-[00:16:33.324] Server  LOG     ✓ Compiled in 266ms
-[00:16:33.423] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:16:42.424] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:16:42.424] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:16:42.424] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151772581} /_vercel/insights/view
-[00:16:46.873] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:16:46.873] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:16:46.873] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151777045} /_vercel/insights/view
-[00:17:47.875] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:17:47.875] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:17:47.875] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151838030} /_vercel/insights/view
-[00:18:36.923] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:18:36.923] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:18:36.923] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789151887091} /_vercel/insights/view
-[00:32:01.591] Server  LOG     ✓ Compiled in 967ms
-[00:32:20.054] Server  LOG     ✓ Compiled in 86ms
-[00:32:27.554] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:32:27.554] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:32:27.554] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789152717731} /_vercel/insights/view
-[00:32:46.015] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:32:46.015] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:32:46.015] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:32:46.015] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789152736215} /_vercel/insights/view
-[00:32:56.706] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:32:56.706] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:32:56.918] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:32:56.918] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789152747118} /_vercel/insights/view
-[00:33:00.879] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:33:00.879] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:33:00.879] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:33:00.879] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789152751078} /_vercel/insights/view
-[00:33:11.220] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789152761411} /_vercel/insights/view
-[00:33:11.337] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:33:11.337] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:33:13.281] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:33:13.281] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:33:13.281] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:33:13.281] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789152763465} /_vercel/insights/view
-[00:34:14.774] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:34:14.774] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:34:31.633] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:34:31.633] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:35:24.931] Server  LOG     ✓ Compiled in 127ms
-[00:35:36.123] Server  LOG     ✓ Compiled in 64ms
-[00:36:48.318] Server  LOG     ✓ Compiled in 409ms
-[00:37:04.947] Server  LOG     ✓ Compiled in 118ms
-[00:37:36.864] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:37:36.864] Browser LOG     [2;38;2;124;124;124m%s[0m EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:37:36.864] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/schedule color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/schedule","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789153027018} /_vercel/insights/view
-[00:37:37.973] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
-[00:37:37.973] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:37:37.973] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:37:37.973] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#contact color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/#contact","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789153028174} /_vercel/insights/view
+[00:00:01.321] Server  LOG     ✓ Ready in 1082ms
+[00:00:21.195] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:21.195] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:21.195] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.195] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187536715} /_vercel/insights/view
+[00:00:25.700] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:25.700] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:25.855] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:25.855] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187541401} /_vercel/insights/view
+[00:00:40.823] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:00:40.823] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:40.823] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:40.823] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187556388} /_vercel/insights/view
+[00:02:08.773] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.1.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:10.108] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:02:10.109] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:10.109] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187645629} /_vercel/insights/view
+[00:02:10.109] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:23.546] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:02:23.547] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:23.547] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:23.547] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187659108} /_vercel/insights/view
+[00:02:25.971] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:02:25.971] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:25.971] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:25.971] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187661544} /_vercel/insights/view
+[00:02:33.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:33.284] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:02:33.284] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:33.469] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:33.469] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187669052} /_vercel/insights/view
+[00:02:35.764] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:35.949] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:02:35.950] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:35.950] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:35.950] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187671526} /_vercel/insights/view
+[00:03:23.978] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.1.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:03:24.585] Browser LOG     EmailJS Config Check: {"hasPublicKey":false,"hasServiceId":false,"hasTemplateId":false}
+[00:03:24.586] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:24.586] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"o":"http://localhost:3000/","sdkn":"@vercel/analytics/react","sdkv":"1.5.0","sv":"0.1.3","ts":1789187720159} /_vercel/insights/view
+[00:03:24.586] Browser WARN    Image with src "https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

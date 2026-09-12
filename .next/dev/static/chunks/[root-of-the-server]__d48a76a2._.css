@@ -1845,10 +1845,6 @@
     border-left-width: 1px;
   }
 
-  .border-\[\#fff\] {
-    border-color: #fff;
-  }
-
   .border-gray-200 {
     border-color: var(--color-gray-200);
   }
@@ -2801,13 +2797,6 @@
   @media (hover: hover) {
     .hover\:scale-\[1\]:hover {
       scale: 1;
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:border-0:hover {
-      border-style: var(--tw-border-style);
-      border-width: 0;
     }
   }
 
