@@ -18,6 +18,7 @@ import {
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [interest, setInterest] = useState("");
   const pathname = usePathname();
   const isSchedulePage = pathname === "/schedule";
 
@@ -40,6 +41,12 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (isSchedulePage && !interest) {
+      alert("Please select a weekend.");
+      return;
+    }
+
     setIsSubmitting(true);
 
     const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
@@ -59,14 +66,16 @@ export function ContactForm() {
     }
 
     try {
-      const result = await emailjs.sendForm(
-        serviceId,
-        templateId,
-        e.target as HTMLFormElement,
-      );
+      const form = e.currentTarget;
+      const formData = new FormData(form);
+
+      console.log("Form data:", Object.fromEntries(formData.entries()));
+      const result = await emailjs.sendForm(serviceId, templateId, form);
 
       console.log("Email sent successfully:", result.text);
-      (e.target as HTMLFormElement).reset();
+      form.reset();
+      setInterest("");
+
       alert("Thank you for your message! We will get back to you soon.");
     } catch (error: any) {
       console.error("Email sending failed:", error);
@@ -143,18 +152,54 @@ export function ContactForm() {
 
         {isSchedulePage && (
           <div className="space-y-2">
-            <Label htmlFor="interest">{"Select Weekend"}</Label>
-            <Select name="interest">
+            <Label htmlFor="interest">Select Weekend</Label>
+
+            <Select value={interest} onValueChange={setInterest} required>
               <SelectTrigger id="interest" className="bg-background">
                 <SelectValue placeholder="Choose dates" />
               </SelectTrigger>
+
               <SelectContent>
-                <SelectItem value="weekend1">{"Weekend 1"}</SelectItem>
-                <SelectItem value="weekend2">{"Weekend 2"}</SelectItem>
-                <SelectItem value="weekend3">{"Weekend 3"}</SelectItem>
-                <SelectItem value="weekend4">{"Weekend 4"}</SelectItem>
-                <SelectItem value="weekend5">{"Weekend 5"}</SelectItem>
+                <SelectItem value="January 8, 9, 10">
+                  January 8, 9, 10
+                </SelectItem>
+
+                <SelectItem value="January 15, 16, 17">
+                  January 15, 16, 17
+                </SelectItem>
+                <SelectItem value="January 22, 23, 24">
+                  January 22, 23, 24
+                </SelectItem>
+                <SelectItem value="January 29, 30, 31">
+                  January 29, 30, 31
+                </SelectItem>
+                <SelectItem value="February 5, 6, 7">
+                  February 5, 6, 7
+                </SelectItem>
+                <SelectItem value="February 12, 13, 14">
+                  February 12, 13, 14
+                </SelectItem>
+                <SelectItem value="February 19, 20, 21">
+                  February 19, 20, 21
+                </SelectItem>
+                <SelectItem value="February 26, 27, 28">
+                  February 26, 27, 28
+                </SelectItem>
+                <SelectItem value="March 5, 6, 7">March 5, 6, 7</SelectItem>
+                <SelectItem value="March 12, 13, 14">
+                  March 12, 13, 14
+                </SelectItem>
+                <SelectItem value="March 19, 20, 21">
+                  March 19, 20, 21
+                </SelectItem>
+                <SelectItem value="March 26, 27, 28">
+                  March 26, 27, 28
+                </SelectItem>
+                <SelectItem value="April 2, 3, 4">April 2, 3, 4</SelectItem>
+                <SelectItem value="April 9, 10, 11">April 9, 10, 11</SelectItem>
               </SelectContent>
+              {/* Native form field that EmailJS will capture */}
+              <input type="hidden" name="interest" value={interest || "N/A"} />
             </Select>
           </div>
         )}
