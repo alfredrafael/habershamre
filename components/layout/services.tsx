@@ -32,22 +32,22 @@ export default function Services() {
         <div className="flex-1">
           <Service
             icon={<BuildIcon />}
-            title="What we offer 1"
-            description="Lorem Ipsum sit amet consectetur adipiscing elit. Eius libero tempore at ex laboriosam alias culpa voluptatibus nihil molestias suscipit, reiciendis veritatis in facilis, voluptas impedit nostrum officia optio! Tenetur?"
+            title="Looking to Make Sarasota Your Home?"
+            description="We help buyers understand Sarasota's neighborhoods, lifestyle, culture, and opportunities—and find the property that best fits how they want to live."
           />
         </div>
         <div className="flex-1 md:border-r md:border-l">
           <Service
             icon={<HomeIcon />}
-            title="What we offer 2"
-            description="Lorem Ipsum sit amet consectetur adipiscing elit. Eius libero tempore at ex laboriosam alias culpa voluptatibus nihil molestias suscipit, reiciendis veritatis in facilis, voluptas impedit nostrum officia optio! Tenetur?"
+            title="Looking for a Rental—or a Renter?"
+            description="Whether you are searching for a seasonal or long-term rental or need help finding the right tenant for your property, we can guide you through the process. Looking for Investment Properties"
           />
         </div>
         <div className="flex-1">
           <Service
             icon={<ExpandIcon />}
-            title="What we offer 3"
-            description="Lorem Ipsum sit amet consectetur adipiscing elit. Eius libero tempore at ex laboriosam alias culpa voluptatibus nihil molestias suscipit, reiciendis veritatis in facilis, voluptas impedit nostrum officia optio! Tenetur?"
+            title="Need Help Improving or Maintaining a Property?"
+            description="From commercial and residential remodeling to HVAC, plumbing, and roofing, we can connect you with trusted local professionals who can help you maintain and improve your property."
           />
         </div>
       </div>
