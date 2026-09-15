@@ -199,10 +199,11 @@ export function ContactForm() {
                 <SelectItem value="April 9, 10, 11">April 9, 10, 11</SelectItem>
               </SelectContent>
               {/* Native form field that EmailJS will capture */}
-              <input type="hidden" name="interest" value={interest || "N/A"} />
             </Select>
           </div>
         )}
+
+        <input type="hidden" name="interest" value={interest || "N/A"} />
 
         <div className="space-y-2">
           <Label htmlFor="message">{"Message"}</Label>
