@@ -30,12 +30,12 @@ export function ContactForm() {
       hasTemplateId: !!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
     });
 
-    // if (publicKey) {
-    //   emailjs.init(publicKey);
-    //   console.log("EmailJS initialized successfully");
-    // } else {
-    //   console.error("EmailJS public key is missing!");
-    // }
+    if (publicKey) {
+      emailjs.init(publicKey);
+      console.log("EmailJS initialized successfully");
+    } else {
+      console.error("EmailJS public key is missing!");
+    }
   }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
