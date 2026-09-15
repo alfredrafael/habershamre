@@ -18,15 +18,15 @@ export const contactDetails = [
     icon: MapPin,
     label: "Office",
     value:
-      "169 East Flagler Street, Alfred I. Dupont Building, Miami, FL 33131",
+      "169 East Flagler Street, Suite PH, Alfred I. Dupont Building, Miami, FL 33131",
     href: "https://www.google.com/maps/place/169+East+Flagler+Street,+Alfred+I.+Dupont+Building,+Miami,+FL+33131",
   },
-  {
-    icon: Clock,
-    label: "Hours",
-    value: "Mon - Fri: 9:00 AM - 6:00 PM\nSat: 10:00 AM - 4:00 PM",
-    href: null,
-  },
+  // {
+  //   icon: Clock,
+  //   label: "Hours",
+  //   value: "Mon - Fri: 9:00 AM - 6:00 PM\nSat: 10:00 AM - 4:00 PM",
+  //   href: null,
+  // },
 ];
 
 export const testimonialsArray = [
