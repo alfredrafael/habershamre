@@ -6,7 +6,7 @@ export type MenuDropdown = {
 
 export const mainMenu: Record<string, string | MenuDropdown> = {
   home: "/",
-  Schedule: "/schedule",
+  // Schedule: "/schedule",
 };
 
 export const contentMenu = {

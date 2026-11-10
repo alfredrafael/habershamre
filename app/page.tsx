@@ -8,6 +8,7 @@ import { contactDetails } from "./data";
 import { TestimonialsCarousel } from "@/components/testimonialsCarousel";
 import { testimonialsArray } from "./data";
 import { Container } from "@/components/craft";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,14 +19,31 @@ export default function Home() {
           <Services />
         </div>
         <About />
-        <div className="max-w-[75%] mx-auto">
-          <hr />
-        </div>
+        <section
+          aria-label="Vineyard to Sarasota"
+          className="mx-auto my-8 flex w-[calc(100%-3rem)] max-w-5xl flex-col items-center gap-8 sm:my-12 sm:gap-10"
+        >
+          <div
+            aria-hidden="true"
+            className="h-px w-full bg-linear-to-r from-transparent via-primary/25 to-transparent"
+          />
+          <Image
+            src="https://www.alfredorafael.com/wp-content/uploads/2026/11/Vineyard-to-Sarasota-Seal.png"
+            alt="Vineyard to Sarasota Seal"
+            width={360}
+            height={360}
+            className="h-auto w-[270px] max-w-full sm:w-[360px]"
+          />
+          <div
+            aria-hidden="true"
+            className="h-px w-full bg-linear-to-r from-transparent via-primary/25 to-transparent"
+          />
+        </section>
         {/* <Projects /> */}
-        <Ribbon
+        {/* <Ribbon
           ribbonText="Lorem Ipsum Text Goes Here"
           ribbonImage="https://www.alfredorafael.com/wp-content/uploads/2026/09/Sarasota-crowd.png"
-        />
+        /> */}
         {/* <div className="mb-16">
           <p className="text-center mt-16 mb-8 text-3xl font-semibold">
             What Our Clients Say

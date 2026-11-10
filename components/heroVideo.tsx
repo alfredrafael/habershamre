@@ -68,7 +68,7 @@ export default function HeroVideo() {
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <Link href="/contact">
+          <Link href="/schedule">
             <Button
               size="lg"
               className="w-full sm:w-auto bg-[#1D283F] dark:text-white"
@@ -82,9 +82,9 @@ export default function HeroVideo() {
             className="w-full bg-transparent border-white hover:border-[#1D283F] dark:border-white/70 text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.7)] hover:text-white sm:w-auto hover:bg-[#1D283F]"
             onClick={(e) => {
               e.preventDefault();
-              const projectsSection = document.getElementById("projects");
-              if (projectsSection) {
-                projectsSection.scrollIntoView({ behavior: "smooth" });
+              const contactSection = document.getElementById("contact");
+              if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth" });
               }
             }}
           >

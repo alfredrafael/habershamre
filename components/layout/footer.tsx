@@ -18,12 +18,13 @@ export function Footer() {
             <Link
               className="flex items-center gap-4 transition-all hover:opacity-75"
               href="/"
+              style={{ marginLeft: "1rem" }}
             >
               <Image
-                src="https://www.alfredorafael.com/wp-content/uploads/2026/09/HabershamRE_logo-scaled.png"
+                src="https://www.alfredorafael.com/wp-content/uploads/2026/11/HabershamRE_logo_3.png"
                 alt="Site Logo"
-                width={100}
-                height={100}
+                width={200}
+                height={200}
               />
             </Link>
           </div>

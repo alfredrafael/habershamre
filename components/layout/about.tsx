@@ -11,7 +11,7 @@ export default function About() {
       <Prose>
         <section className="about-section">
           <Image
-            src="https://www.alfredorafael.com/wp-content/uploads/2026/09/Richard-Habersham-Circled.png"
+            src="https://www.alfredorafael.com/wp-content/uploads/2026/11/RIchard_Habersham-modified-scaled.png"
             alt="Richard Habersham"
             width={200}
             height={200}
