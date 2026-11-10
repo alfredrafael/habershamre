@@ -14,6 +14,7 @@ import { MobileNav } from "@/components/nav/mobile-nav";
 import { mainMenu } from "@/menu.config";
 import { siteConfig } from "@/site.config";
 import { cn } from "@/lib/utils";
+import { siteLogo } from "@/lib/branding";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
@@ -63,12 +64,7 @@ export function Nav({ className, children, id }: NavProps) {
           className="flex items-center gap-4 transition-all hover:opacity-75"
           href="/"
         >
-          <Image
-            src="https://www.alfredorafael.com/wp-content/uploads/2026/11/HabershamRE_logo_3.png"
-            alt="Site Logo"
-            width={200}
-            height={200}
-          />
+          <Image {...siteLogo} />
           <h2 className="hidden text-sm">{siteConfig.site_name}</h2>
         </Link>
 
