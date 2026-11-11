@@ -21,7 +21,7 @@ export function Footer() {
               style={{ marginLeft: "1rem" }}
             >
               <Image
-                src="https://www.alfredorafael.com/wp-content/uploads/2026/11/HabershamRE_logo_3.png"
+                src="https://www.alfredorafael.com/wp-content/uploads/2026/11/HabershamRE_logo_4-scaled.png"
                 alt="Site Logo"
                 width={200}
                 height={200}
